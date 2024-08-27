@@ -1,0 +1,67 @@
+@import "homepage";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans";
+    color: #dae4ed;
+    transition: 0.3s all ease;
+}
+
+body {
+    background: #000;
+    opacity: 1;
+}
+
+main {
+    min-height: calc(100vh - 200px);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 80%;
+
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #000;
+    @media (max-width: 576px) {
+        font-size: 15px;
+    }
+}
+
+p {
+    color: #000;
+    margin-bottom: 20px;
+    
+    @media (max-width: 576px) {
+        font-size: 13px;
+    }
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+span {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
