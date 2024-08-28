@@ -12,8 +12,51 @@
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 30%;
+}
+.form__item {
+  margin-bottom: 20px;
+}
+.form label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 5px;
+}
+.form input[type=text],
+.form input[type=email],
+.form textarea {
   width: 100%;
-  max-width: 400px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  transition: border-color 0.3s;
+}
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form textarea:focus {
+  border-color: #007BFF;
+  outline: none;
+}
+.form textarea {
+  height: 100px;
+  resize: none;
+}
+.form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.form button:hover {
+  background-color: #0056b3;
 }
 
 * {
@@ -23,6 +66,7 @@
   font-family: "Nunito Sans";
   color: #dae4ed;
   transition: 0.3s all ease;
+  color: #000;
 }
 
 body {
@@ -43,7 +87,11 @@ main {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 80%;
+  max-width: 100%;
+}
+
+h1 {
+  color: #fff;
 }
 
 h2 {

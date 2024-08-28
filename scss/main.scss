@@ -7,6 +7,7 @@
     font-family: "Nunito Sans";
     color: #dae4ed;
     transition: 0.3s all ease;
+    color: #000;
 }
 
 body {
@@ -27,8 +28,12 @@ main {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    max-width: 80%;
+    max-width: 100%;
 
+}
+
+h1 {
+    color: #fff;
 }
 
 h2 {
